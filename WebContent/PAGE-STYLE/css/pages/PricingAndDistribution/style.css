@@ -1,0 +1,149 @@
+@CHARSET "ISO-8859-1";
+
+.country_list_master {
+	width: 99%;
+	height: 30px;
+	border: 1px solid #1bb3ca;
+	font-weight: 600;
+	text-align: left;
+}
+
+.scroll_box {
+	height: inherit;
+	overflow: auto;
+	overflow-x: hidden;
+	float: left;
+	width: 100%;
+}
+
+.country_list_content {
+	background: #eee;
+	color: #666;
+	font-size: 0.75em;
+	padding: 5px;
+	margin: 0;
+}
+
+.country_list {
+	width: 99%;
+	height: 450px;
+	border: 1px solid #e9e9e9;
+	font-weight: 600;
+	text-align: left;
+}
+
+.pricing_and_distribution {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.field_price {
+	width: 100%;
+	border-bottom: 1px solid #e9e9e9;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+p.title_price_detail {
+	float: left;
+	text-transform: uppercase
+}
+
+button.btn_saved_price {
+	width: 70px;
+	height: 30px;
+	margin: 10px 10px 10px 10px;
+	float: right;
+	border-radius: 2px;
+	border: 1px solid #e8e8e8;
+	box-shadow: inset 0px 0px 12px #f4f4f4;
+}
+
+button.btn_saved_price:disabled {
+	color: gainsboro;
+}
+
+input[type="button"]:disabled {
+	color: gainsboro;
+}
+
+button:disabled {
+	color: gainsboro;
+}
+
+p.name_field {
+	float: left;
+	font-weight: 600;
+	margin: 0px;
+}
+
+div.price {
+	text-align: center;
+	float: left;
+	width: 170px;
+	border-radius: 3px;
+	font-size: 12pt;
+	box-shadow: inset 0px 0px 10px #B1B2B4;
+	background:
+		url(./../../../../PAGE-STYLE/images/FunctionApplication/ic_btnfilter.png);
+	padding: 8px;
+	margin-top: 5px;
+}
+
+p.star {
+	float: left;
+	color: #1bb3ca;
+	margin: 15px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.item {
+	overflow: hidden;
+	padding: 5px;
+	border: 1px solid #e9e9e9;
+	border-bottom: 1px;
+	border-right: 0px;
+}
+
+.title_distribute {
+	height: 40px;
+}
+
+p.title_popup_price {
+	font-size: 22px;
+	margin: 10px;
+}
+
+.list_customer_price {
+	width: 100%;
+	overflow: hidden;
+	background: aliceblue;
+}
+
+.item_price_left {
+	width: 150px;
+	float: left;
+	padding: 15px;
+	border: 1px solid #e9e9e9;
+	border-top: 1px;
+}
+
+.item_price_right {
+	width: 250px;
+	float: left;
+	padding: 15px;
+	border: 1px solid #e9e9e9;
+	border-top: 1px;
+	border-left: 0px;
+}
+
+.popup_price {
+	text-align: center;
+}
+
+.item_price {
+	overflow: hidden;
+	width: 500px;
+	background:
+}

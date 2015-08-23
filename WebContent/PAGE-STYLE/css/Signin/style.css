@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2014, 11:28:15 AM
+    Author     : hieunq5
+*/
+.top-panel {
+	background-color: #e7e4e4;
+	height: 75px;
+	width: 100%;
+	align-items: center;
+	border-bottom: 1px solod #ccc;
+}
+
+.top-panel .item {
+	display: inline-block;
+	float: none;
+}
+
+.body-panel {
+	margin-top: 10px;
+	min-height: 512px;
+}
+
+.right {
+	float: right:
+}
+
+.center-vertical {
+	align-items: center;
+}
+
+.login-form {
+	height: 100%;
+	align-items: center;
+}
+
+.vertical-center {
+	align-items: center;
+}
+
+.horizontal-center {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	/* Align the bootstrap's container vertically */
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	/* In legacy web browsers such as Firefox 9
+     we need to specify the width of the flex container */
+	width: 100%;
+	/* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+     hence the bootstrap's container won't be aligned to the center anymore.
+  
+     Therefore, we should use the following declarations to get it centered again */
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.logo {
+	width: 100%;
+}
+
+.logo img {
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.login-fields input {
+	font-family: 'Open Sans';
+	font-size: 13px;
+	color: #363632;
+	padding: 11px 15px 10px 50px;
+	background-color: #fdfdfd;
+	display: block;
+	margin: 5px auto;
+	box-shadow: inset 2px 2px 4px #f1f1f1;
+	height: 40px;
+}

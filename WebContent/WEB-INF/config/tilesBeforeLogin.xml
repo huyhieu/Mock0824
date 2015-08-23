@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base.beforelogin" template="/Form/BeforeLogin/MasterPageBeforeLogin.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/Form/BeforeLogin/header.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/Form/BeforeLogin/footer.jsp" />
+	</definition>
+	
+	<definition name="register" extends="base.beforelogin">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/Form/BeforeLogin/RegisterPage.jsp" />
+	</definition>
+	
+	<definition name="login" extends="base.beforelogin">
+		<put-attribute name="title" value="Login" />
+		<put-attribute name="body" value="/Form/BeforeLogin/LoginPage.jsp" />
+	</definition>
+	
+	<definition name="forgotPassword" extends="base.beforelogin">
+		<put-attribute name="title" value="Fogot Password" />
+		<put-attribute name="body" value="/Form/BeforeLogin/FogotPasswordPage.jsp" />
+	</definition>
+	
+	<definition name="VerifySuccessPage" extends="base.beforelogin">
+		<put-attribute name="title" value="Verify Email" />
+		<put-attribute name="body" value="/Form/BeforeLogin/VerifySuccessPage.jsp" />
+	</definition>
+	
+	<definition name="VerifyErrorPage" extends="base.beforelogin">
+		<put-attribute name="title" value="Verify Email" />
+		<put-attribute name="body" value="/Form/BeforeLogin/VerifyErrorPage.jsp" />
+	</definition>
+</tiles-definitions>

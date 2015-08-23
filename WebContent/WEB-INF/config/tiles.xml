@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="base.definition" template="/Form/MasterPage/MasterPage.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/Form/MasterPage/Header.jsp" />
+		<put-attribute name="menu" value="/Form/MasterPage/LeftMenu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/Form/BeforeLogin/footer.jsp" />
+	</definition>
+
+	<definition name="contact" extends="base.definition">
+		<put-attribute name="title" value="Contact Manager" />
+		<put-attribute name="body" value="/Form/MasterPage/contact.jsp" />
+	</definition>
+
+	<definition name="homeold" extends="base.definition">
+		<put-attribute name="title" value="Vmock" />
+		<put-attribute name="body" value="/Form/MasterPage/PageContent.jsp" />
+	</definition>
+
+	<definition name="Base.MasterPageV2" template="/Form/MasterPageV2/MasterPageDetail.jsp">
+		<put-attribute name="title" value="Template" />
+		<put-attribute name="header" value="/Form/MasterPageV2/HeaderMain.jsp" />
+		<put-attribute name="content" value="/Form/MasterPageV2/Content.jsp" />
+	</definition>
+	
+	<definition name="home" extends="Base.MasterPageV2">
+		<put-attribute name="title" value="Vmock" />
+		<put-attribute name="content" value="/Form/MasterPageV2/Content.jsp" />
+	</definition>
+
+</tiles-definitions>

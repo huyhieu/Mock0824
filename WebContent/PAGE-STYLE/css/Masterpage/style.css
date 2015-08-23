@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+
+body,html {
+	height: 100%;
+}
+
+#page_header {
+	text-align: right;
+	width: 100%;
+	height: 67px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	top: 0px;
+	background-size: 100% 100%;
+	min-width: 850px;
+	float:left;
+}
+
+#page_content {
+	top: 67px;
+	width: 100%;
+	float: left;
+	overflow: inherit;
+	background: #FFF;
+	float:left;
+}
+
+#page_footer {
+	/* background: none repeat scroll 0% 0% gray;
+	height: 52px;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	min-width: 1024px; */
+	
+	width: 100%;
+	min-width: 850px;
+	height: 52px;
+	bottom: 0;
+	left: 0;
+	background: #283a47;
+	height: 52px;
+	float:left;
+}
+
+#page_content .left {
+	height: 100%;
+	width: 93px;
+	height:100%;
+	float: left;
+	overflow: hidden;
+	background: white;
+}
+
+#page_content .right {
+	height: 100%;
+	overflow: hidden;
+	text-align: left;
+	background: #FFF;
+	border-left-style: solid;
+	border-left-color: #e5e9ea;
+	border-left-width: 3px;
+}

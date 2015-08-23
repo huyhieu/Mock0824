@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- Defines some part of a page to return -->
+	<definition name="page_error" template="/Form/Common/PageEmpty.jsp">
+		<put-attribute name="content" value="/Form/Common/PageError.jsp" />
+	</definition>
+
+	<definition name="page_fail" template="/Form/Common/PageEmpty.jsp">
+		<put-attribute name="content" value="/Form/Common/PageFail.jsp" />
+	</definition>
+
+	<definition name="page_invalid" template="/Form/Common/PageEmpty.jsp">
+		<put-attribute name="content" value="/Form/Common/PageInvalid.jsp" />
+	</definition>
+
+	<definition name="page_not_login" template="/Form/Common/PageEmpty.jsp">
+		<put-attribute name="content" value="/Form/Common/PageNotLogin.jsp" />
+	</definition>
+
+	<definition name="page_success" template="/Form/Common/PageEmpty.jsp">
+		<put-attribute name="content" value="/Form/Common/PageSuccess.jsp" />
+	</definition>
+
+	<definition name="page_success" template="/Form/Common/PageEmpty.jsp">
+		<put-attribute name="content" value="/Form/Common/PageTimeout.jsp" />
+	</definition>
+	
+	<definition name="page_existed" template="/Form/Common/PageEmpty.jsp">
+		<put-attribute name="content" value="/Form/Common/PageExisted.jsp" />
+	</definition>
+
+</tiles-definitions>

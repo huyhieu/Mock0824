@@ -1,0 +1,15 @@
+.ic_viettel {
+	background-image: url('../../img/common/ic_viettelstore.png');
+	width: 41px;
+	height: 40px;
+	float: left;
+}
+
+.space {
+	width: 1px;
+	height: 42px;
+	/* background-color: #999999; */
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}

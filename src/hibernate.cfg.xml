@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@10.60.15.54:1521:dbpt</property>
+		<property name="hibernate.connection.username">VPMT_TEST</property>
+		<property name="hibernate.connection.password">VPMT_TEST#123</property>
+
+		<property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+		<property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+
+		<property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+		<property name="hibernate.c3p0.min_size">1</property>
+		<property name="hibernate.c3p0.max_size">35</property>
+		<property name="hibernate.c3p0.timeout">3000</property>
+		<property name="hibernate.c3p0.checkoutTimeout">2500</property>
+		<property name="hibernate.c3p0.max_statements">50</property>
+		<property name="hibernate.c3p0.idle_test_period">100</property>
+		<property name="hibernate.show_sql">false</property>
+		<property name="hibernate.format_sql">false</property>
+
+		<mapping class="com.viettel.data.model.entity.MockToken" />
+		<mapping class="com.viettel.data.model.entity.MockUser" />
+		<mapping class="com.viettel.data.model.entity.MockProject" />
+		<mapping class="com.viettel.data.model.entity.MockApi" />
+		<mapping class="com.viettel.data.model.entity.MockApiHeader" />
+		<mapping class="com.viettel.data.model.entity.MockApiBody" />
+		<mapping class="com.viettel.data.model.entity.MockApiUri" />
+		<mapping class="com.viettel.data.model.entity.VpmtMockService" />
+		<mapping class="com.viettel.data.model.entity.VpmtMockServiceConfig" />
+	</session-factory>
+</hibernate-configuration>

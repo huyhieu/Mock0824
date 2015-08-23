@@ -1,0 +1,186 @@
+@CHARSET "ISO-8859-1";
+
+/* ============================STYLE POPUP===================================== */
+div#popup {
+	display: none;
+}
+
+/* style add new application */
+div.myPopupDialog {
+	width: 50%;
+	padding: 10px;
+	border-radius: 5px;
+	background: white;
+}
+
+label#popuptitle {
+	margin-top: 8px;
+	float: left;
+}
+
+p#popuptitle {
+	color: #1bb3ca;
+	text-align: left;
+}
+
+input.tftitle {
+	width: 100%;
+	padding: 3px;
+	border-radius: 3px;
+	border-width: 0px;
+	box-shadow: 0px 0px 1px #93A4AB;
+}
+
+input.eventTitle {
+	width: 100%;
+	padding: 3px;
+	border-radius: 3px;
+	border-width: 0px;
+	height: 30px;
+	box-shadow: 0px 0px 1px #93A4AB;
+}
+
+p .tftitle {
+	font-size: 10pt;
+	color: #93A4AB;
+	margin: 5px 0px;
+	text-align: left;
+}
+
+input#btnpop {
+	background: #1bb3ca;
+	color: white;
+	border-width: 0px;
+	border-radius: 3px;
+	width: 36%;
+	font-size: 12pt;
+	white-space: nowrap;
+	font-weight: 600;
+	height: 35px;
+	cursor: pointer;
+}
+
+#Popupcontent {
+	text-align: left;
+}
+
+.pagetitle {
+	color: #666;
+	font-size: 18px;
+	text-align: left;
+}
+
+#popup_price .itemlst {
+	font-size: 12px;
+	text-align: left;
+	outline: medium none;
+}
+
+#popup .itemlst {
+	font-size: 12px;
+	text-align: left;
+	outline: medium none;
+}
+
+#listemail .itemlst {
+	line-height: 1.5;
+	word-wrap: break-word;
+}
+
+#popup button {
+	float: right;
+	font-weight: normal;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: #1bb3ca;
+	color: white !important;
+	border-width: 0px !important;
+	border-radius: 3px !important;
+	width: 23% !important;
+	white-space: nowrap !important;
+	height: 35px !important;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+input#tftitle:Hover {
+	width: 100%;
+	border-radius: 3px;
+	border-width: 0px;
+	box-shadow: 0px 0px 5px #93A4AB;
+}
+
+/* style add new apk */
+div#beforeupload {
+	font-size: 12pt;
+	background: #f5f5f5;
+	box-shadow: inset 0px 0px 10px;
+	border-radius: 4px;
+	text-align: center;
+	padding: 20px;
+	width: 90%;
+	margin: 2%;
+}
+
+p#title {
+	padding: 0px;
+	margin: 3px;
+}
+
+button#browser {
+	background: #f5f5f5;
+	color: rgb(44, 44, 44);
+	border-width: 0px;
+	border-radius: 3px;
+	width: 17%;
+	box-shadow: inset 0px 0px 5px #d4d4d4;
+	font-size: 11pt;
+	white-space: nowrap;
+	font-weight: 600;
+	height: 35px;
+	margin-top: 10px;
+}
+
+div#afterupload {
+	width: 90%;
+	padding: 10px;
+	font-size: 12pt;
+	background: #fbf1f0;
+	border: 1px solid #eec9c7;
+	margin: 3%;
+	border-radius: 3px;
+}
+
+p#errorupload {
+	color: #dd9dab;
+	font-weight: 100;
+}
+
+button#browser {
+	background: #f5f5f5;
+	color: rgb(44, 44, 44);
+	border-width: 0px;
+	border-radius: 3px;
+	width: 17%;
+	box-shadow: inset 0px 0px 5px #d4d4d4;
+	font-size: 11pt;
+	white-space: nowrap;
+	font-weight: 600;
+	height: 35px;
+	margin-top: 10px;
+}
+
+button#browser:hover {
+	background: #f5f5f5;
+	color: rgb(44, 44, 44);
+	border-width: 0px;
+	border-radius: 3px;
+	width: 17%;
+	box-shadow: inset 0px 0px 5px #d4d4d4;
+	font-size: 11pt;
+	white-space: nowrap;
+	font-weight: 600;
+	height: 35px;
+	margin-top: 10px;
+	border: 2px solid #d4d4d4;
+}

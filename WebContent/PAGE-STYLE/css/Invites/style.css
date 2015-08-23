@@ -1,0 +1,271 @@
+@CHARSET "ISO-8859-1";
+
+div.PopupInvite {
+	display: none;
+}
+
+div#addemail {
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+	color: #666;
+	font-weight: normal;
+}
+
+div.addemail {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	color: #666;
+	font-weight: normal;
+}
+
+.testerCommentExpand {
+	width: 98%; ! important;
+	line-height: 25px;
+	border-bottom: 1px solid #DDD;
+	background-color: #E2F2FC;
+	line-height: 25px;
+}
+
+div#message {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+	color: #666;
+	font-weight: normal;
+}
+
+.ui-dialog {
+	max-height: none !important;
+}
+
+button#sendemail {
+	margin-top: 10px;
+	margin-right: 20px;
+	float: left;
+	width: 120px;
+	height: 30px;
+	color: white;
+	background: #1bb3ca;
+	border-radius: 3px;
+	float: right;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+#listemail tr:hover {
+	cursor: auto !important;
+}
+
+#listemail tr {
+	cursor: auto !important;
+}
+
+div.titleemail {
+	font-weight: bold;
+	width: 20%;
+	float: left;
+	text-align: center;
+	height: 28px;
+	padding-top: 10px;
+}
+
+div.itememail {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+div#rowtt {
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	border-bottom: 5px solid #f4f4f4;
+}
+
+div#rowit {
+	height: 30px;
+	padding-top: 20px;
+	padding-left: 5px;
+	border-bottom: 2px solid #f4f4f4;
+	padding-right: 5px;
+}
+
+div#rowit:HOVER,div#rowit:ACTIVE {
+	background: aliceblue;
+	height: 30px;
+	padding-top: 20px;
+	padding-left: 5px;
+	border-bottom: 2px solid #f4f4f4;
+	padding-right: 5px;
+}
+
+div#addemail input {
+	width: 97%;
+	height: 30px;
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 0px;
+	background: #f5f5f7;
+	box-shadow: 0px 0px #b8b8b8;
+	padding: 0px 11px 0px 10px;
+	font-size: 14px;
+}
+
+div#message textarea {
+	border: 1px solid #a0a0a0;
+	width: 99%;
+	height: 100px;
+	max-height: 75px;
+	margin-top: 5px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 6px #b8b8b8;
+}
+
+#emailList {
+	border: 1px solid #a0a0a0;
+	width: 99%;
+	margin-top: 5px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 6px #b8b8b8;
+	resize: none;
+}
+
+.emailList {
+	border: 1px solid #a0a0a0;
+	width: 99%;
+	margin-top: 5px;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 6px #b8b8b8;
+	resize: none;
+}
+
+div#titleinvite {
+	background: none repeat scroll 0% 0% #EFEFEF;
+	color: #9C9392;
+	padding: 10px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+div#invite_content {
+	background: white;
+	width: 100%;
+	/* height: 500px; */
+	padding: 14px;
+}
+
+img.in_resend {
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+
+img.ic_pedding {
+	width: 30px;
+	height: 30px;
+	width: 15px;
+	float: left;
+}
+
+p.sttpedding {
+	float: left;
+}
+
+.itemlst img {
+	width: 30px;
+	height: 30px;
+}
+
+/* Resend invites */
+div#resendMail {
+	padding: 0px;
+}
+
+.titleResend {
+	background: #283a47;
+	color: white;
+	padding: 10px;
+	font-weight: 600;
+}
+
+.contentResend {
+	float: left;
+	width: 100%;
+	border-bottom: 3px solid #d8d8d8;
+}
+
+.rightInvite {
+	float: right;
+	width: 320px;
+	height: 132px;
+	background: #ddf4fb;
+}
+
+.leftInvite {
+	width: 260px;
+	background: white;
+	padding: 10px;
+}
+
+img.ic_avatar {
+	width: 55px;
+	float: left;
+}
+
+span.emailInvite {
+	color: #303038;
+	font-weight: 600;
+	font-size: 11px;
+	margin: 0px 3px;
+	width: 180px;
+	text-overflow: ellipsis;
+	float: left;
+	word-wrap: break-word;
+}
+
+.topInvite {
+	width: 100%;
+	height: 70px;
+	border-bottom: 3px solid #d8d8d8;
+}
+
+img.ic_mobiSolution {
+	float: left;
+	width: 13px;
+	margin-left: 0px;
+}
+
+p.sttInvite {
+	margin: 0px;
+	margin-left: 20px;
+	font-size: 9pt;
+}
+
+span.nameInvite {
+	color: #86abe1;
+	font-size: 10pt;
+	margin: 0px 3px;
+	float: left;
+	word-wrap: break-word;
+	width: 180px;
+}
+
+.footerPopupInvite {
+	font-size: 11px;
+}
+
+button.btnInvitePopup {
+	background: #1bb3ca;
+	color: white;
+	border-width: 0px;
+	border-radius: 3px;
+	white-space: nowrap;
+	font-weight: 600;
+	height: 35px;
+	float: left;
+	width: 45%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
